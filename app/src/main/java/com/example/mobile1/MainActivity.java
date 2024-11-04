@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 //        showCostumeDialog();
 
+//        this is array
         ArrayList<student> arrayStudents = new ArrayList<>();
         for (int i = 0; i < 100; i++) {
             student student = new student("abas" + i, "mohseni" + i, "android" + i, "age abas " + i, "ids = " + i);
